@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css?family=Spirax');
+
+/*=============================================
+=            general            =
+=============================================*/
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+
+/*=============================================
+=            body            =
+=============================================*/
+
+body {
+    background-image: url('../img/background-img.jpg');
+    background-repeat: repeat;
+    z-index: 1;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+/*=============================================
+=            wrapping            =
+=============================================*/
+
+.wrapping {
+    background-color: black;
+    color: white;
+}
+
+.navbar-brand {
+    font-family: 'Spirax', cursive;
+}
+
+
+/*=============================================
+=            header            =
+=============================================*/
+
+header {
+    margin: auto;
+    height: 350px;
+    width: 1400px;
+    position: relative;
+}
+
+.header-img .carousel-item {
+    height: 350px;
+}
+
+#header-navbar {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    z-index: 5;
+}
+
+#header-navbar ul {
+    padding: 0 3px;
+}
+
+#header-navbar .nav-item {
+    font-size: 28px;
+    text-shadow: 3px 3px 3px #cccccc;
+}
+
+
+/*=============================================
+=            profile            =
+=============================================*/
+
+.profile-img {
+    border-radius: 50%;
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+#profile-img-col {
+    margin: 80px auto;
+    margin-bottom: 30px;
+}
+
+#profile-img-col h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#profile-col {
+    margin: auto;
+}
+
+#profile-col p {
+    font-size: 28px;
+}
+
+
+/*=============================================
+=            working-img            =
+=============================================*/
+
+.myWork h1,
+h4 {
+    text-align: center;
+}
+
+.working-img {
+    margin: auto;
+    height: 800px;
+    width: 800px;
+}
+
+#working-img-carousel .carousel-item img {
+    display: block;
+    height: 800px;
+}
+
+
+/*=============================================
+=            casual-img            =
+=============================================*/
+
+#casual-img {
+    margin-top: 100px;
+}
+
+[id^='casual-image'] {
+    background-size: cover;
+    height: 500px;
+    filter: grayscale(80%);
+    transition: all .3s ease;
+}
+
+[id^='casual-image']:hover {
+    filter: grayscale(0%);
+}
+
+#casual-image1 {
+    background-image: url('../img/casual-img/casual-img1.jpg')
+}
+
+#casual-image2 {
+    background-image: url('../img/casual-img/casual-img2.jpg')
+}
+
+#casual-image3 {
+    background-image: url('../img/casual-img/casual-img3.jpg')
+}
+
+#casual-image4 {
+    background-image: url('../img/casual-img/casual-img4.jpg')
+}
+
+#casual-image5 {
+    background-image: url('../img/casual-img/casual-img5.jpg')
+}
+
+#casual-image6 {
+    background-image: url('../img/casual-img/casual-img6.jpg')
+}
+
+
+/*=============================================
+=            footer            =
+=============================================*/
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer .brand {
+    font-family: 'Spirax', cursive;
+    font-size: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+footer .Email {
+    text-decoration: none;
+    color: white;
+}
+
+footer .info {
+    font-size: 20px;
+}
+
+footer .link-table {
+    margin-left: auto;
+}
+
+footer .link {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+
+/*=============================================
+=            Men's            =
+=============================================*/
+
+h1.men-text {
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 3px 3px 3px #cccccc;
+}
+
+.menImgRow {
+    margin: 50px 5px;
+}
+
+#menImg1 {
+    height: 350px;
+    background-image: url('../img/work-img-men/1.jpg');
+    background-size: cover;
+}
+
+#menImg2 {
+    height: 350px;
+    background-image: url('../img/work-img-men/2.jpg');
+    background-size: cover;
+}
+
+#menImg3 {
+    height: 350px;
+    background-image: url('../img/work-img-men/3.jpg');
+    background-size: cover;
+}
+
+#menImg4 {
+    height: 350px;
+    background-image: url('../img/work-img-men/4.jpg');
+    background-size: cover;
+}
+
+#menImg5 {
+    height: 350px;
+    background-image: url('../img/work-img-men/5.jpg');
+    background-size: cover;
+}
+
+#menImg6 {
+    height: 350px;
+    background-image: url('../img/work-img-men/6.jpg');
+    background-size: cover;
+}
+
+#menImg7 {
+    height: 350px;
+    background-image: url('../img/work-img-men/7.jpg');
+    background-size: cover;
+}
+
+
+/*=============================================
+=            Women's            =
+=============================================*/
+
+h1.women-text {
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 3px 3px 3px #cccccc;
+}
+
+.womenImgRow {
+    margin: 50px 5px;
+}
+
+#womenImg1 {
+    height: 350px;
+    background-image: url('../img/work-img-women/1.jpg');
+    background-size: cover;
+}
+
+#womenImg2 {
+    height: 350px;
+    background-image: url('../img/work-img-women/2.jpg');
+    background-size: cover;
+}
+
+#womenImg3 {
+    height: 350px;
+    background-image: url('../img/work-img-women/3.jpg');
+    background-size: cover;
+}
+
+#womenImg4 {
+    height: 350px;
+    background-image: url('../img/work-img-women/4.jpg');
+    background-size: cover;
+}
+
+#womenImg5 {
+    height: 350px;
+    background-image: url('../img/work-img-women/5.jpg');
+    background-size: cover;
+}
+
+#womenImg6 {
+    height: 350px;
+    background-image: url('../img/work-img-women/6.jpg');
+    background-size: cover;
+}
+
+#womenImg7 {
+    height: 350px;
+    background-image: url('../img/work-img-women/7.jpg');
+    background-size: cover;
+}
+
+#womenImg8 {
+    height: 350px;
+    background-image: url('../img/work-img-women/8.jpg');
+    background-size: cover;
+}
+
+#womenImg9 {
+    height: 350px;
+    background-image: url('../img/work-img-women/9.jpg');
+    background-size: cover;
+}
+
+#womenImg10 {
+    height: 350px;
+    background-image: url('../img/work-img-women/10.jpg');
+    background-size: cover;
+}
+
+#womenImg11 {
+    height: 350px;
+    background-image: url('../img/work-img-women/11.jpg');
+    background-size: cover;
+}
+
+#womenImg12 {
+    height: 350px;
+    background-image: url('../img/work-img-women/12.jpg');
+    background-size: cover;
+}
+
+#womenImg13 {
+    height: 350px;
+    background-image: url('../img/work-img-women/13.jpg');
+    background-size: cover;
+}
+
+
+/*=============================================
+=            Map            =
+=============================================*/
+
+.address {
+    margin-top: 50px;
+}
+
+.map-text h1 {
+    text-align: center;
+    margin-top: 150px;
+    text-shadow: 3px 3px 3px #cccccc;
+}
+
+.map-text h4 {
+    text-shadow: 3px 3px 3px #cccccc;
+}
+
+#map {
+    margin: 50px auto;
+    width: 100%;
+    height: 500px;
+    background-color: #aaa;
+}
+
+
+/*=============================================
+=            Contact            =
+=============================================*/
+
+#contactSection {
+    margin-top: 50px;
+}
+
+#contactSection h2,
+#contactSection li {
+    text-shadow: 3px 3px 3px #cccccc;
+}
+
+.contact-link {
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 40px;
+    color: black;
+}
+
+#contactNina,
+#contactComma {
+    margin: 50px;
+}
+
+#contactImgNina,
+#contactImgComma {
+    width: 80%;
+}
